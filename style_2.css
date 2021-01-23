@@ -1051,3 +1051,17 @@ h4 {
  /* a {
      text-decoration: none;
  } */
+
+ .col-sm-4 {
+     color:#F3976C;
+     font-family: fantasy;
+     font-size: 1.5em;
+ }
+ .col-sm-5 {
+     color: #2c1705;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+ }
+ul {
+    list-style: circle;
+ }
+
