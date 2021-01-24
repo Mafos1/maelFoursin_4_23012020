@@ -1,5 +1,6 @@
 <!doctype html>
-<!-- M/ Modification de la langue en Fr  --><!-- Copie de tout le head+header de l'index-->
+<!-- M/ Modification de la langue en Fr  -->
+<!-- Copie de tout le head+header de l'index-->
 
 <html lang="fr">
 <!-- M/ Balise modifié -->
@@ -41,29 +42,8 @@
 	<script src="./js/gmaps.js" defer></script>
 	<!--M/ ajout de defer à tous les liens js afin de ne pas affecter le chargement de la page -->
 
-	<title>La chouette agence - Websdesign à Lyon</title>
+	<title>La chouette agence - Contact</title>
 	<!-- M/ Ajout du titre dans la balise <title> -->
-
-	<!-- M/ Ajout des meta pour Facebook -->
-	<meta property="og:title" content="La Chouette Agence" />
-	<meta property="og:url" content="http://wwww.githubpageMF.com" />
-	<!--A modifier plus tard-->
-	<meta property="og:image" content="img/4.jpg" loading="lazy" />
-	<meta property="og:description"
-		content="La chouette agence est une société de webdesign basé à Lyon, qui aide les entreprises à devenir attractives et visible sur internet" />
-	<meta property="og:site_name" content="La Chouette Agence" />
-	<meta property="og:type" content="siteweb" />
-	<meta property="og:video" content=" " />
-	<!--Emplacement pour video yt ico-->
-
-	<!-- M/ Ajout des meta pour Twitter -->
-	<meta name="twitter:card" content="summary_large_image" />
-	<!--AM/ -->
-	<meta name="twitter:site" content="@lachouetteagence">
-	<meta name="twitter:title" content="La chouette agence - Websdesign à Lyon" />
-	<meta name="twitter:description"
-		content="La chouette agence est une société de webdesign basé à Lyon, qui aide les entreprises à devenir attractives et visible sur internet" />
-	<meta name="twitter:image" content="img/4.jpg" loading="lazy" />
 
 	<!-- Analytics -->
 	<!-- laisser en état -->
@@ -83,16 +63,12 @@
 
 					<nav class="navbar row">
 						<div class="navbar-header">
-							<!--S/ <div class="keywords" style="color:#cccccc;font-size:1px;">Agence web à paris, stratégie web,
-							web design, illustrations, design de site web, site web, web, internet, site internet, site
-						</div> -->
+							<!--S/ div ac KW -->
 							<a class="navbar-brand" href="index.html"><img src="img/la-chouette-agence.png"
 									loading="lazy"
 									alt="agence graphisme, agence motion design, Communication digitale, Web Lyon, agence web lyon, développeur web lyon, communication et marketing digital"
 									height="40" /></a>
-							<!--S/  <div class="keywords" style="color:#cccccc;font-size:1px;">Agence web à paris, stratégie web,
-							web design, illustrations, design de site web, site web, web, internet, site internet, site
-						</div> -->
+							<!--S/ div ac KW-->
 							<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle"
 								data-toggle="collapse" data-target=".navbar-1">
 								<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span
@@ -116,7 +92,7 @@
 		<!-- bloc-0 END -->
 
 		<!-- Ajout du Main -->
-	<main>
+		<main>
 			<!-- bloc-1-presentation -->
 			<div class="bloc bgc-dark-slate-blue bg-banniere d-bloc bg-t-edge bloc-bg-texture texture-paper b-parallax"
 				id="bloc-1-hero">
@@ -148,28 +124,28 @@
 							<form id="form_1" novalidate success-msg="Your message has been sent."
 								fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
 								<div class="form-group">
-									<label>
+									<label for="name">
 										Nom
+										<input id="name" type="text" class="form-control" required />
 									</label>
-									<input id="name" class="form-control" required />
 								</div>
 								<div class="form-group">
-									<label>
+									<label for="email">
 										Adresse email
+										<input id="email" type="email" class="form-control" required />
 									</label>
-									<input id="email" class="form-control" type="email" required />
 								</div>
 								<div class="form-group">
-									<label>
+									<label for="ask">
 										Comment nous avez-vous connu ?
+										<input class="form-control" type="text" required />
 									</label>
-									<input class="form-control" type="email" required id="input_504" />
 								</div>
 								<div class="form-group">
-									<label>
+									<label for="brief">
 										Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
-									</label><textarea id="message" class="form-control" rows="4" cols="50"
-										required></textarea>
+									</label>
+									<textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
 								</div>
 								<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine"
 									type="submit">
@@ -192,66 +168,62 @@
 			<a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')"><span
 					class="fa fa-chevron-up"></span></a>
 			<!-- ScrollToTop Button END-->
-	</main>		
+		</main>
 
-			<footer>
-				<!-- Footer - bloc-8 -->
-				<div class="bloc bgc-atomic-tangerine d-bloc" id="bloc-8">
-					<div class="container bloc-sm">
-						<div class="row">
-							<div class="col-sm-12">
-								<p class="text-center white">
-									La chouette agence - Agence web basée à Lyon.<br>
-								</p>
-								<!-- Ajout des lien vers les acceueil des réseaux-->
-								<div class="row row-no-gutters social">
-									<div class="col-sm-3">
-										<div class="text-center">
-											<a class="social" href="http://twitter.com/"><span
-													class="fa fa-twitter icon-md"></span></a>
-										</div> <!-- Ajouter lien page du réseau social -->
-									</div>
-									<div class="col-sm-3">
-										<div class="text-center">
-											<a class="social" href="http://facebook.com"><span
-													class="fa fa-facebook icon-md"></span></a>
-										</div> <!-- Ajouter lien page du réseau social -->
-									</div>
-									<div class="col-sm-3">
-										<div class="text-center">
-											<a class="social" href="http://dribbble.com"><span
-													class="fa fa-dribbble icon-md"></span></a>
-										</div> <!-- Ajouter lien page du réseau social -->
-									</div>
-									<div class="col-sm-3">
-										<div class="text-center">
-											<a class="social" href="http://instagram.com"><span
-													class="fa fa-instagram icon-md"></span></a>
-										</div> <!-- Ajouter lien page du réseau social -->
-									</div>
-									<!-- S/ Div ac KW inutile -->
-									<!-- <div class="keywords" style="color:#F3976C;">Agence web à paris, stratégie web, web
-										design,
-										illustrations, design de site web, site web, web, internet, site internet, site
-									</div> -->
+		<footer>
+			<!-- Footer - bloc-8 -->
+			<div class="bloc bgc-atomic-tangerine d-bloc" id="bloc-8">
+				<div class="container bloc-sm">
+					<div class="row">
+						<div class="col-sm-12">
+							<p class="text-center white">
+								La chouette agence - Agence web basée à Lyon.<br>
+							</p>
+							<!-- Ajout des lien vers les acceueil des réseaux-->
+							<div class="row row-no-gutters social">
+								<div class="col-sm-3">
+									<div class="text-center">
+										<a class="social" href="http://twitter.com/"><span
+												class="fa fa-twitter icon-md"></span></a>
+									</div> <!-- Ajouter lien page du réseau social -->
 								</div>
-								<!-- /AM inserez les partenaire dans la page partenaires-->
+								<div class="col-sm-3">
+									<div class="text-center">
+										<a class="social" href="http://facebook.com"><span
+												class="fa fa-facebook icon-md"></span></a>
+									</div> <!-- Ajouter lien page du réseau social -->
+								</div>
+								<div class="col-sm-3">
+									<div class="text-center">
+										<a class="social" href="http://dribbble.com"><span
+												class="fa fa-dribbble icon-md"></span></a>
+									</div> <!-- Ajouter lien page du réseau social -->
+								</div>
+								<div class="col-sm-3">
+									<div class="text-center">
+										<a class="social" href="http://instagram.com"><span
+												class="fa fa-instagram icon-md"></span></a>
+									</div> <!-- Ajouter lien page du réseau social -->
+								</div>
+								<!-- S/ Div ac KW inutile -->
+							</div>
+							<!-- /AM inserez les partenaire dans la page partenaires-->
 
-								<!-- M/ Ajout liste en bas du footer -->
-								<div class="footerList">
-									<a href="legal.html"><span class="txt">Mentions légales</span></a> &nbsp; &nbsp;
-									&nbsp; &nbsp;
-									<a href="partenaires.html"><span class="txt">Partenaires</span></a> &nbsp; &nbsp;
-									&nbsp; &nbsp;
-									<a href="contact"><span class="txt">Contact</span></a>
-								</div>
+							<!-- M/ Ajout liste en bas du footer -->
+							<div class="footerList">
+								<a href="legal.html"><span class="txt">Mentions légales</span></a> &nbsp; &nbsp;
+								&nbsp; &nbsp;
+								<a href="partenaires.html"><span class="txt">Partenaires</span></a> &nbsp; &nbsp;
+								&nbsp; &nbsp;
+								<a href="contact"><span class="txt">Contact</span></a>
 							</div>
 						</div>
 					</div>
 				</div>
+			</div>
 
-			</footer>
-			<!-- Footer - bloc-8 END -->
+		</footer>
+		<!-- Footer - bloc-8 END -->
 
 	</div>
 	<!-- Principal conteneur END -->
